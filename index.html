@@ -46,7 +46,13 @@
       margin-right: auto;
     }
 
-    .telegram-button {
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .telegram-button, .instagram-button {
       background-color: #d4af37;
       color: #2c1a1a;
       padding: 15px 30px;
@@ -58,7 +64,7 @@
       font-weight: bold;
     }
 
-    .telegram-button:hover {
+    .telegram-button:hover, .instagram-button:hover {
       background-color: #b38e2e;
     }
   </style>
@@ -72,7 +78,10 @@
 
   <p class="description">Тільки в Telegram: щоденні розіграші фішок, VIP-ігри та прямий доступ до спільноти гравців України.</p>
 
-  <a class="telegram-button" href="https://t.me/+_i1rn-V4z88wYTBh" target="_blank">Telegram</a>
+  <div class="button-group">
+    <a class="telegram-button" href="https://t.me/+_i1rn-V4z88wYTBh" target="_blank">Telegram</a>
+    <a class="instagram-button" href="https://www.instagram.com/club_poker_kart_blansh?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" target="_blank">Instagram</a>
+  </div>
 
 </body>
 </html>
